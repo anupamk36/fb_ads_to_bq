@@ -1,5 +1,5 @@
-from facebook_business.objects import AdCampaign
-campaign = AdCampaign('23849295425920086')
+from facebook_business.adobjects.campaign import Campaign
+campaign = Campaign('23849295425920086')
 access_token = 'your_access_token'
 params = {
     'date_preset': 'last_year',
